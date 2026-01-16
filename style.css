@@ -1,0 +1,49 @@
+/* Global styles */
+body {
+     font-family: Arial, sans-serif;
+     background-color: #f2f2f2;
+     margin: 0;
+     padding: 0;
+}
+
+/* Profile card container */
+.profile-card {
+    width: 400px;
+
+    /*Box Model */
+    margin: 50px auto;           /* space
+outside */
+    padding: 20px;               /* space
+inside */
+    border: 2px solid #333;    /* border
+*/
+
+    background-color: #ffffff;
+}
+
+/* Name styling */
+.name {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    background-color: #e6f0ff;
+}
+
+/* About paragraph */
+.about {
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px dashed #666;
+}
+
+/* Skills list */
+.skills {
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #999;
+    background-color: #f9f9f9;
+}
+
+.skills li {
+    margin-bottom: 5px;
+}
